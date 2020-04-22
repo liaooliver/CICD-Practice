@@ -13,7 +13,7 @@ deploy:
   provider: s3
   access_key_id: $AccesskeyID
   secret_access_key: $SecretAccesskey
-  bucket: "cherrichat"
+  bucket: "cicdpractice"
   skip_cleanup: true
-  region: "ap-southeast-1"
+  region: "ap-northeast-1"
   local_dir: dist
